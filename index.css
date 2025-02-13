@@ -24,5 +24,21 @@
   .forecast-item {
     text-align: center;
   }
-  /* #weather{font-size: 50px;} */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #282c36;
+    color: white;
+    text-align: center;
+}
+.container {
+    margin-top: 50px;
+}
+.weather-display {
+    margin-top: 20px;
+}
+.forecast {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
   

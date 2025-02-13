@@ -70,4 +70,4 @@ document.addEventListener("DOMContentLoaded", async () => {
     };
     return weatherConditions[code] || "Unknown";
   }
-  
+  getWeatherDescription(code)
